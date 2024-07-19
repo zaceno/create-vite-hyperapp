@@ -1,0 +1,19 @@
+{
+  "name": "create-vite-hyperapp",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "\"Scaffold a project quickly with Hyperapp and Vite\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zacharias Enochsson",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2"
+  },
+  "bin": {
+    "create-vite-hyperapp": "index.js"
+  }
+}
