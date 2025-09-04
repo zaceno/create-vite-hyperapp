@@ -1,4 +1,4 @@
-import type { Action } from "hyperapp"
+import { type Action } from "hyperapp"
 
 type CounterProps = {
   clicks: number

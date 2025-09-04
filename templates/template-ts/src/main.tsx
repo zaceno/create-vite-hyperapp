@@ -2,7 +2,7 @@ import "./style.css"
 import typescriptLogo from "./typescript.svg"
 import hyperappLogo from "./hyperapp.svg"
 import viteLogo from "/vite.svg"
-import type { Action } from "hyperapp"
+import { type Action, type VNode } from "hyperapp"
 import Counter from "./counter"
 
 type State = { counter: number }
@@ -30,13 +30,14 @@ const Logos = () => (
   </>
 )
 
-export const view = (state: State) => (
-  <main id="app">
-    <h1>Vite + Hyperapp + TypeScript</h1>
-    <Logos />
-    <Counter clicks={state.counter} onclick={HandleClick} />
-    <p class="read-the-docs">
-      Click on the Vite, Hyperapp & TypeScript logos to learn more
-    </p>
-  </main>
-)
+export const view = (state: State) =>
+  (
+    <main id="app">
+      <h1>Vite + Hyperapp + TypeScript</h1>
+      <Logos />
+      <Counter clicks={state.counter} onclick={HandleClick} />
+      <p class="read-the-docs">
+        Click on the Vite, Hyperapp & TypeScript logos to learn more
+      </p>
+    </main>
+  ) as VNode<State>
