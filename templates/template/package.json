@@ -8,9 +8,11 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "hyperapp": "^2.0.22"
+  },
   "devDependencies": {
-    "hyperapp": "^2.0.22",
-    "vite": "^4.4.5",
-    "vite-plugin-hyperapp": "^1.0.3"
+    "vite": "^4.5.14",
+    "vite-plugin-hyperapp": "^1.2.0"
   }
 }

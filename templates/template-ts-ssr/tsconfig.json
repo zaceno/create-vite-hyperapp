@@ -21,7 +21,8 @@
 
     /* Necessary for tsx to work with vite-plugin-hyperapp*/
     "jsx": "preserve",
-    "jsxImportSource": "vite-plugin-hyperapp"
+    "jsxFactory": "jsx",
+    "jsxFragmentFactory": "jsxFragment"
   },
   "include": ["src"]
 }

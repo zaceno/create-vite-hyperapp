@@ -11,11 +11,11 @@
     "preview": "NODE_ENV=production node server"
   },
   "devDependencies": {
-    "hyperapp": "^2.0.22",
-    "vite": "^4.4.5",
-    "vite-plugin-hyperapp": "^1.0.3"
+    "vite": "^4.5.14",
+    "vite-plugin-hyperapp": "^1.2.0"
   },
   "dependencies": {
+    "hyperapp": "^2.0.22",
     "compression": "^1.7.4",
     "express": "^4.19.2",
     "sirv": "^2.0.4"
